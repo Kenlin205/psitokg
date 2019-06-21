@@ -1,0 +1,8 @@
+stress = input("請輸入psi ")
+stress = float(stress)
+length = input("請輸入die長邊(mm)：")
+length = float(length)
+width = input("請輸入die短邊(mm)：") 
+width = float(width)
+force = (length*width*stress*0.454) / (25.4*25.4)
+print("施力為",force, "kg")
